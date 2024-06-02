@@ -9,7 +9,7 @@ public class Main{
             s[start] = s[end];
             s[end] = temp;
             start++;
-            end--;
+            end--; 
         }
     }
 
