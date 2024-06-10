@@ -23,7 +23,7 @@ public class Solution {
         for(int i=1; i<=word.length(); i++){
             String prefix = word.substring(0, i);
             if(dict.contains(prefix)){
-                return prefix;
+                return prefix; 
             }
         }
         return word;
